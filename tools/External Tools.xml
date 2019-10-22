@@ -1,0 +1,30 @@
+<toolSet name="External Tools">
+  <tool name="open phabricator" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/Google Chrome.app" />
+      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/fbandroid/$FileRelativePath$$$LineNumber$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="open phabricator fblite" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/Google Chrome.app" />
+      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/fbandroid/apps/fblite/$FileRelativePath$$$LineNumber$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="open phabricator blame" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/Google Chrome.app" />
+      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/fbandroid/apps/fblite/$FileRelativePath$$$LineNumber$?blame=1" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SSH Tunnel to DevServer" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/fbsource/fbandroid/apps/fblite/devEnv/bootstrap/create_tunnel_with_terminal.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/fbsource/fbandroid/apps/fblite" />
+    </exec>
+  </tool>
+</toolSet>

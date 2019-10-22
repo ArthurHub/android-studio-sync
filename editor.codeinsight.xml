@@ -1,0 +1,15 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
+    <EXCLUDED_PACKAGE NAME="com.sun" />
+    <EXCLUDED_PACKAGE NAME="java.awt" />
+    <EXCLUDED_PACKAGE NAME="java.sql" />
+    <EXCLUDED_PACKAGE NAME="javafx" />
+    <EXCLUDED_PACKAGE NAME="sun" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="Project Default" />
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseOneLineMethods" value="false" />
+  </component>
+</application>
