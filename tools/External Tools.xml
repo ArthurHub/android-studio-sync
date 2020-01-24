@@ -1,22 +1,15 @@
 <toolSet name="External Tools">
-  <tool name="open phabricator" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="open phabricator" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/Applications/Google Chrome.app" />
-      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/fbandroid/$FileRelativePath$$$LineNumber$" />
+      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/$FileRelativePath$$$LineNumber$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="open phabricator fblite" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="open phabricator blame" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/Applications/Google Chrome.app" />
-      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/fbandroid/apps/fblite/$FileRelativePath$$$LineNumber$" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
-    </exec>
-  </tool>
-  <tool name="open phabricator blame" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="/Applications/Google Chrome.app" />
-      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/fbandroid/apps/fblite/$FileRelativePath$$$LineNumber$?blame=1" />
+      <option name="PARAMETERS" value="https://phabricator.intern.facebook.com/diffusion/FBS/browse/master/$FileRelativePath$$$LineNumber$?blame=1" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
