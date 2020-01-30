@@ -1,37 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Class Hierarchy" />
-    <option name="defaultScopeName" value="Class Hierarchy" />
-    <option name="SEARCH_SCOPE" value="Class Hierarchy" />
-    <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.html</mask>
-      <mask>*.jsp</mask>
-      <mask>*.js</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*.mxm</mask>
-      <mask>*.mx</mask>
-      <mask>*.m</mask>
-      <mask>*</mask>
-      <mask>*.jav</mask>
-      <mask>*.xm</mask>
-      <mask>*.</mask>
-      <mask>*.j</mask>
-      <mask>*.ja</mask>
-      <mask>*.x</mask>
-      <mask>B</mask>
-      <mask>BU</mask>
-      <mask>BUC</mask>
-      <mask>BUCK</mask>
-      <mask>f</mask>
-      <mask>fb</mask>
-      <mask>fbli</mask>
-      <mask>fblite</mask>
-      <mask>buck</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-    </recentFileMasks>
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
